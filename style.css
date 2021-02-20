@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.first {
+    display: block;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: darkred;
+}
+
+hr {
+    border: 3px dashed navy;
+}
+
+form {
+    display: inline-block;
+    border: 2px #000 solid;
+}
+
+.input, .label, .button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.for-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+h4, .a {
+    text-align: center;
+}
+
+.a {
+    margin-bottom: 100px;
+}
